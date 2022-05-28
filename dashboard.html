@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>aviation-frequency-propagation-simulator</title>
+</head>
+<body>
+    <div class="form-control">
+
+        <form action="#">
+            <div class="input-button">
+                <a href="./">Go to map</a>
+            </div>
+        <div class="input-group">
+            <label for="key">Latitude</label>
+            <input type="number" name="latitude" id="lat" value="">
+        </div>
+        <div class="input-group">
+            <label for="value">Longitude</label>
+            <input type="number" name="longitude" id="lng" value="">
+        </div>
+        <div class="input-group">
+            <label for="value">Radius</label>
+            <input type="number" name="radius" id="rd" value="">
+        </div>
+        <div class="input-button">
+            <button id="add">Add</button>
+        </div>
+        
+    </form>
+</div>
+    <hr>
+    <div class="form-control">
+    <div class="local-storage">
+       <div class="title">
+           <h3>Longitute</h3> 
+           <h3>Latitude</h3> 
+           <h3>Radius</h3> 
+        </div>
+        <ul id="items"> 
+        </ul>
+    </div>
+</div>
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="dash.js"></script>
+</html>

@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Heebo:300,400,700,900|Roboto:300,400,500,700");
+/*---------------------------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+#map{
+    height:100vh
+}
+
+
+form{
+    display: flex;
+    padding: 20px 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.form-control{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(45deg, #0d447c, #4c0909);
+    
+}
+
+.input-group{
+    padding: 0 10px;
+}
+.input-group input{
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(230, 230, 230);
+}
+.input-group input:focus{
+   outline: none;
+}
+
+#add{
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(52, 52, 255);
+    color: white;
+    cursor: pointer;
+}
+
+#items li{
+    list-style: none;
+    background: #7c7c7c47;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    margin-top: 2px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#items li p{
+    padding-right:15px
+}
+#items li:hover{
+    background: #ff000047;
+}
+
+#deleteItems{
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(255, 0, 55);
+    color: white;
+    cursor: pointer;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 20px 0;
+}
+.local-storage{
+    width:530px;
+    height: 100vh;
+}
+
+.coordinates{
+    background: #0522f3;
+    padding: 10px 36px;
+    position: fixed;
+    top: 62px;
+    left: 11px;
+    box-shadow: 0 0 2px #000000a3;
+    color: white;
+    z-index: 100;
+    text-decoration: none;
+}
+
+.input-button a{
+padding: 0 30px;
+margin: auto;
+color: #fd9710;
+}
